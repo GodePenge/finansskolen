@@ -1846,8 +1846,32 @@ h2.tilmelding-column-title {
     background-color: #E9E4DE;
     color: #1A1A1A;
     min-height: 800px;
-    padding: 7.5rem 4rem 7.5rem 4rem;
-    justify-content: flex-start;
+    padding: 2rem 4rem 7.5rem 4rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.samarbejd-block-4 .faq-contact-content {
+    align-items: center;
+    text-align: center;
+}
+
+.samarbejd-block-4 .faq-contact-info {
+    text-align: center;
+}
+
+.samarbejd-block-4 .faq-contact-info .tilmelding-form-title-container {
+    align-items: center;
+}
+
+.samarbejd-block-4 .faq-contact-description p {
+    text-align: center;
+}
+
+.samarbejd-block-4 .tilmelding-form-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .samarbejd-block-4 .block-2-title {
@@ -1947,27 +1971,30 @@ h2.tilmelding-column-title {
     background-color: #E9E4DE;
     color: #1A1A1A;
     min-height: 800px;
-    padding: 7.5rem 4rem 7.5rem 4rem;
-    justify-content: flex-start;
+    padding: 4rem 4rem 7.5rem 4rem;
+    justify-content: center;
+    align-items: center;
 }
 
 .faq-contact-content {
     display: flex;
-    gap: 4rem;
-    align-items: flex-start;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
     width: 100%;
-    max-width: 1200px;
+    max-width: 700px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .faq-contact-info {
-    flex: 1;
     margin-top: 2rem;
-    text-align: left;
+    text-align: center;
+    width: 100%;
 }
 
 .faq-contact-info .tilmelding-form-title-container {
-    align-items: flex-start;
+    align-items: center;
 }
 
 .faq-contact-description {
@@ -1978,16 +2005,23 @@ h2.tilmelding-column-title {
     font-family: 'Roboto Mono', monospace;
     font-size: 0.9rem;
     line-height: 1.6;
-    text-align: left;
+    text-align: center;
 }
 
 .faq-contact-content .tilmelding-form-container {
-    flex: 1;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .faq-contact-form .tilmelding-submit {
     background-color: #1A1A1A;
     color: #fff;
+}
+
+.faq-page .faq-contact-block .tilmelding-submit:hover,
+.samarbejd-page .samarbejd-block-4 .tilmelding-submit:hover {
+    background-color: #F35D8D;
 }
 
 .faq-contact-form .form-group input:focus,
