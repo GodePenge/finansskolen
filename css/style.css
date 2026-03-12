@@ -1182,7 +1182,7 @@ header nav .nav-button:hover {
     top: 50%;
     font-size: 3.5rem;
     color: #fff;
-    opacity: 0.85;
+    opacity: 1;
     animation: bounce-right 2s ease infinite;
     z-index: 20;
     cursor: pointer;
@@ -2499,6 +2499,10 @@ h2.tilmelding-column-title {
     }
 
     .scroll-top-arrow {
+        display: none;
+    }
+
+    .slide-arrow-right {
         display: none;
     }
 
