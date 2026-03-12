@@ -523,6 +523,13 @@ function initHorizontalScroll() {
         });
     }
 
+    // Slide right arrows
+    document.querySelectorAll('.slide-arrow-right').forEach(function(arrow) {
+        arrow.addEventListener('click', function() {
+            navigateToSlide(currentSlide + 1);
+        });
+    });
+
     // Scroll to top button
     const scrollTopBtn = document.getElementById('scroll-top-btn');
     if (scrollTopBtn) {
